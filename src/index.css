@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #F1F1F1;
+  --background: #0F0F0F;
+  --primary: #F1F1F1;
+  --secondary: #272727;
+  --muted: #F1F1F150;
+  --accent: #FF0000;
+} 
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  position: relative;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*::selection {
+  background: var(--accent);
+  color: var(--background);
+}
